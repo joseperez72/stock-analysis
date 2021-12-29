@@ -25,3 +25,5 @@ One of the things I learned from this project was realizing that you don't need 
 ![nestedforloop](Resources/nestedforloopIterator.png) ![](Resources/iteratorIncrease.png)
 
 The con that I faced was trying to reuse parts of the original code by copying and pasting it to the refactored code and then changing the name of the variable. This part took the longest to debug because in the original code, `startingPrice` was a variable, and in the refactored code, `tickerStartingPrices` was an array, so I kept receiving a "compiling error: type mismatch" window because I forgot to add the parenthesis and the iterator to the array. So for the longest, I left it as `tickerStartingPrices` instead of `tickerStartingPrices(tickerIndex)`. I should not have copied and pasted the original code into the refactored code.
+
+![compile_error](Resources/compile_error.png) ![copypasteError](Resources/copypasteError.png) ![correctedArray](Resources/correctRefactored.png)
