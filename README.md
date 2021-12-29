@@ -8,6 +8,8 @@ In this project, we help Mr. Green find the best green energy stock for his pare
 
 When looking at the results for 2017, we see that every green energy stock, except for TERP, had a positive yearly return. For the year 2018, every stock had a negative yearly return, except for ENPH and RUN. Looking at the 2018 results, it looks like ENPH and RUN are the two companies to invest in. If you look in further, you see that in 2017, ENPH and RUN had a yearly return of 129.5% and 5.5%, respectfully. In the year 2018, ENPH's yearly return declined to 81.9%, while RUN's yearly return increased to 84.0%. Using this information, it looks like RUN is the best green energy stock to invest in.
 
+** Note: There are two modules in the VBA_Challenge.xlsm file, the original code is in Module 1 and the refactored code is in Module 2. **
+
 When looking at the execution times for the original and refactored scripts, the refactored code is significantly quicker than the original code. For the year 2017, the original code ran in 0.9003906 seconds and the refactored code ran in o.1640015 seconds, for a difference of 0.7363891 seconds. For the year 2018, the original code ran for 0.9335938 seconds and the refactored code ran for 0.164978 seconds for a difference of 0.7686158 seconds.
 
 ![original2017runtime](Resources/originalruntime2017.png) ![refactored2017runtime](Resources/VBA_Challenge_2017.png)
