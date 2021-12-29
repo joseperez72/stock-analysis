@@ -10,6 +10,9 @@ When looking at the results for 2017, we see that every green energy stock, exce
 
 When looking at the execution times for the original and refactored scripts, the refactored code is significantly quicker than the original code.
 
+![original2017runtime](Resources/originalruntime2017.png) ![refactored2017runtime](Resources/VBA_Challenge_2017.png)
+![original2018runtime](Resources/originalruntime2018.png) ![refactored2018runtime](Resources/VBA_Challenge_2018.png)
+
 ## Summary
 
 ### What are the advantages or disadvantages of refactoring code?
