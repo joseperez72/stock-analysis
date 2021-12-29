@@ -17,6 +17,7 @@ Sub AllStocksAnalysisRefactored()
     Cells(3, 3).Value = "Return"
 
     'Initialize array of all tickers
+    'The starter code had the array with 13 arrays instead of 12
     Dim tickers(11) As String
     
     tickers(0) = "AY"
@@ -56,6 +57,7 @@ Sub AllStocksAnalysisRefactored()
 
     Next tickerIndex
 
+    'this is where I set the tickerIndex to zero for 1a
     tickerIndex = 0
         
     ''2b) Loop over all the rows in the spreadsheet. 
@@ -112,12 +114,14 @@ Sub AllStocksAnalysisRefactored()
 
     For i = dataRowStart To dataRowEnd
         
+        'This formats positive returns to display green
         If Cells(i, 3) > 0 Then
             
             Cells(i, 3).Interior.Color = vbGreen
             
         Else
         
+            'This formats negative returns to display red
             Cells(i, 3).Interior.Color = vbRed
             
         End If
